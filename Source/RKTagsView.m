@@ -77,7 +77,7 @@ const CGFloat RKTagsViewAutomaticDimension = -0.0001;
   self.becomeFirstResponderButton = [[UIButton alloc] initWithFrame:self.bounds];
   self.becomeFirstResponderButton.backgroundColor = nil;
   [self.becomeFirstResponderButton addTarget:self.inputTextField action:@selector(becomeFirstResponder) forControlEvents:UIControlEventTouchUpInside];
-  [self.scrollView addSubview:self.becomeFirstResponderButton];
+  //[self.scrollView addSubview:self.becomeFirstResponderButton];
   //
   _editable = YES;
   _selectable = YES;
